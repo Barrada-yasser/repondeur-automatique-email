@@ -1,0 +1,20 @@
+# ===================================
+# DÉPENDANCES POUR EMAIL AUTO RESPONDER
+# ===================================
+# IMPORTANT : Nécessite Python 3.10, 3.11, 3.12 ou 3.13
+
+# CrewAI - Framework pour agents IA (dernière version)
+crewai>=1.8.0
+crewai-tools
+
+# Google APIs - Pour Gmail
+google-auth>=2.30.0
+google-auth-oauthlib>=1.2.0
+google-auth-httplib2>=0.2.0
+google-api-python-client>=2.140.0
+
+# Python-dotenv - Pour charger les variables d'environnement
+python-dotenv>=1.0.0
+
+# Anthropic - Pour utiliser Claude
+anthropic>=0.39.0
